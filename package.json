@@ -1,8 +1,8 @@
 {
   "name": "stasepaxton.github.io",
   "version": "1.0.0",
-  "description": "stasepaxton.github.com ======================",
-  "main": "index.js",
+  "description": "Stase Paxton's personal portfolio",
+  "main": "src/assets/js/index.js",
   "scripts": {
     "postcss:watch": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env development -w",
     "postcss:build": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env production",
