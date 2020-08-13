@@ -12,3 +12,19 @@ github_username:  stasepaxton
 # Build settings
 plugins:
   - jekyll-postcss
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - script
+  - LICENSE
+  - .gitignore
