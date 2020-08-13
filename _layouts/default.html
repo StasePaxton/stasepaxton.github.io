@@ -6,10 +6,32 @@
 
     <title>{{ page.title }}</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/site.css">
   </head>
 
   <body>
+    <header class="sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+      <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+        <div class="text-4xl">
+          <a href="/"><strong>Stase</strong><span class="font-thin">Paxton</span></a>
+        </div>
+
+        <div class="sm:hidden">
+          <button type="button" class="js-toggle-nav">
+            Hamburger
+          </button>
+        </div>
+      </div>
+
+      <nav role="navigation" class="js-nav hidden px-2 pt-2 pb-4 sm:flex sm:p-0">
+        <a class="block px-2 py-1" href="/">Home</a>
+        <a class="mt-1 block px-2 py-1 sm:mt-0 sm:ml-2" href="/design">Design</a>
+        <a class="mt-1 block px-2 py-1 sm:mt-0 sm:ml-2" href="/art">Art</a>
+        <a class="mt-1 block px-2 py-1 sm:mt-0 sm:ml-2" href="/about">About & Contact</a>
+      </nav>
+    </header>
+
     <main class="container mx-auto text-center">
       {{ content }}
     </main>

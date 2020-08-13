@@ -1,9 +1,16 @@
 ---
 ---
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@tailwind base;
+@tailwind components;
 
-/* Your shit here */
+/* Nothing above here */
 
-@import "tailwindcss/utilities";
+body {
+  color: #494B67;
+  font-family: 'Sora', sans-serif;
+}
+
+/* Nothing below here */
+
+@tailwind utilities;
