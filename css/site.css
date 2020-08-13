@@ -6,6 +6,14 @@
 
 /* Nothing above here */
 
+.footer-gray {
+  background-color: #F8F8F8;
+}
+
+.text-gold-900 {
+  color: #C39C70;
+}
+
 body {
   color: #494B67;
   font-family: 'Sora', sans-serif;
