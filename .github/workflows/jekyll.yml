@@ -1,9 +1,7 @@
-name: Jekyll site CI
+name: Build and Deploy Site
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
 jobs:
