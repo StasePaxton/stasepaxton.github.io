@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/site.css">
@@ -19,7 +19,7 @@
 
         <div class="sm:hidden">
           <button id="js-toggle-nav" type="button">
-            Hamburger
+            <i class="fas fa-bars text-2xl"></i>
           </button>
         </div>
       </div>
@@ -32,16 +32,19 @@
       </nav>
     </header>
 
-    <main class="flex-grow">
+    <main class="flex-grow mb-12">
       {{ content }}
     </main>
 
     <footer class="px-48 pt-48 pb-4 footer-gray">
-      <div class="flex">
-        <span class="font-thin text-xl">Copyright of Stase Paxton</span>
+      <div class="container mx-auto">
+        <div class="flex">
+          <span class="font-thin text-xl">Copyright of Stase Paxton</span>
+        </div>
       </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/0fc4a55089.js" crossorigin="anonymous"></script>
     <script src="/js/site.js"></script>
   </body>
 </html>

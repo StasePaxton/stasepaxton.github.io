@@ -6,6 +6,13 @@
 
 /* Nothing above here */
 
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 60rem;
+  }
+}
+
 .footer-gray {
   background-color: #F8F8F8;
 }
