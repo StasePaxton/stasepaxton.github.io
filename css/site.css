@@ -21,6 +21,23 @@
   color: #C39C70;
 }
 
+/* Life Snapshot */
+.bg-life-snapshot-gray-100 {
+  background-color: #F4F4F4;
+}
+
+.bg-life-snapshot-gray-200 {
+  background-color: #E2E8EB;
+}
+
+.text-life-snapshot-blue-800 {
+  color: #2E5875;
+}
+
+.text-life-spanshot-blue-200 {
+  color: #4283A7;
+}
+
 body {
   color: #494B67;
   font-family: 'Sora', sans-serif;
