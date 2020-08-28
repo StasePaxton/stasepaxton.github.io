@@ -1,10 +1,17 @@
 {
+  "name": "stasepaxton.github.io",
+  "version": "0.1.0",
   "private": true,
-  "devDependencies": {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
     "autoprefixer": "^9.8.6",
-    "cssnano": "^4.1.10",
-    "postcss": "^7.0.32",
-    "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.6.2"
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.7.5"
   }
 }
