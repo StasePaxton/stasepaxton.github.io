@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'gold': '#C39C70',
         'white-smoke': '#F8F8F8',
+        'border-gray': '#D2DBe0',
         'life-snapshot-blue': {
           '200': '#4283A7',
           '800': '#2E5875'
