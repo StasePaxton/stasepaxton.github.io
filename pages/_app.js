@@ -8,11 +8,13 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navigation />
 
-      <main className="flex-grow mb-12">
-        <Component {...pageProps} />
-      </main>
+      <div class="min-h-screen flex flex-col">
+        <main className="flex-grow">
+          <Component {...pageProps} />
+        </main>
 
-      <Footer />
+        <Footer />
+      </div>
     </>
   )
 }
