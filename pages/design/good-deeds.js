@@ -57,7 +57,7 @@ export default function GoodDeeds() {
               <span clasName="font-light">&#8220;</span>When I volunteer, <strong className="text-good-deeds-orange-400">I want to see the impact</strong> it has on the community.<span className="font-light">&#8222;</span>
             </div>
             <div className="row-span-6 col-span-5">
-              <img src="/img/good-deeds/Persona.png" style={{ maxHeight: 20.75 + 'rem' }} />
+              <img src="/img/good-deeds/persona.png" style={{ maxHeight: 20.75 + 'rem' }} />
             </div>
           </div>
 
