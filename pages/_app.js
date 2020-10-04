@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navigation />
 
-      <main className="flex-grow mb-12">
+      <main className="flex-grow">
         <Component {...pageProps} />
       </main>
 
