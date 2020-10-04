@@ -36,9 +36,9 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-3 gap-5">
-          <div className="text-gray-700 bg-gray-400 h-64"></div>
-          <div className="text-gray-700 bg-gray-400"></div>
-          <div className="text-gray-700 bg-gray-400"></div>
+          <Link href="/design/life-snapshot"><a><img src="/img/thumbnails/life-snapshot.png" className="border-2 border-border-gray" /></a></Link>
+          <Link href="/design/good-deeds"><a><img src="/img/thumbnails/good-deeds.png" className="border-2 border-border-gray" /></a></Link>
+          <Link href="/design/vente"><a><img src="/img/thumbnails/vente.png" className="border-2 border-border-gray" /></a></Link>
         </div>
       </section>
 
@@ -48,27 +48,27 @@ export default function Home() {
           <Link href="/art"><a className="text-xl text-gold">See More</a></Link>
         </div>
 
-        <div className="grid grid-cols-3 gap-5">
-          <div className="text-gray-700 bg-gray-400 h-64"></div>
-          <div className="text-gray-700 bg-gray-400"></div>
-          <div className="text-gray-700 bg-gray-400"></div>
+        <div className="grid grid-cols-3 gap-5 pt-6">
+          <Link href="#"><a><img src="http://placekitten.com/g/300/300" className="border-2 border-border-gray" /></a></Link>
+          <Link href="#"><a><img src="http://placekitten.com/g/300/300" className="border-2 border-border-gray" /></a></Link>
+          <Link href="#"><a><img src="http://placekitten.com/g/300/300" className="border-2 border-border-gray" /></a></Link>
         </div>
       </section>
 
-      <section className="container mx-auto mb-24 grid grid-cols-3 grid-rows-3 grid-flow-col gap-1">
-        <div className="row-span-2 col-span-2">
+      <section className="container mx-auto mb-24 grid grid-cols-12 grid-rows-3 grid-flow-col gap-1">
+        <div className="row-span-2 col-span-9">
           <strong className="text-5xl">Wanna Work Together?</strong>
           <p className="font-thin text-4xl">I'd love to hear from you!</p>
         </div>
 
-        <div className="row-span-1 col-span-2">
+        <div className="row-span-1 col-span-9">
           <div className="flex justify-start">
             <strong><Link href="mailto:stase@stasepaxton.com"><a className="mr-16 text-gold text-4xl underline">Email Me</a></Link></strong>
             <strong><a className="text-gold text-4xl underline" href="#">Download Resume</a></strong>
           </div>
         </div>
 
-        <div className="row-span-3 bg-gray-400"></div>
+        <div className="row-span-3 col-span-3"><img src="/img/Portrait2x.png" /></div>
       </section>
     </>
   )
