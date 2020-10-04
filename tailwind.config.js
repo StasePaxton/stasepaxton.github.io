@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'gold': '#C39C70',
         'white-smoke': '#F8F8F8',
+        'border-gray': '#D2DBe0',
         'good-deeds-blue': {
           '100': '#D6E3F2',
           '500': '#266AB8'

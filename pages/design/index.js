@@ -1,29 +1,21 @@
+import Link from 'next/link'
+
 export default function Design() {
-  return(
+  return (
     <>
-      <section className="bg-white pt-8">
-        <div className="container mx-auto">
-          <p className="text-6xl font-extrabold">Design</p>
-        </div>
-      </section>
+      <div className="container mx-auto">
+        <span className="text-6xl font-extrabold">Design</span>
 
-      <section className="bg-white">
-        <div className="container mx-auto">
-          <p className="text-5xl font-extrabold">Case Studies</p>
+        <section>
+          <span className="text-5xl font-extrabold">Case Studies</span>
 
-          <div className="grid grid-cols-12 gap-5 pt-8">
-            <div className="col-span-4 bg-gray-300">
-              Life Snapshot
-            </div>
-            <div className="col-span-4 bg-gray-300">
-              Good Deeds
-            </div>
-            <div className="col-span-4 bg-gray-300">
-              Vente
-            </div>
+          <div className="grid grid-cols-3 gap-5 pt-6">
+            <Link href="/design/life-snapshot"><a><img src="/img/thumbnails/life-snapshot.png" className="border-2 border-border-gray" /></a></Link>
+            <Link href="/design/good-deeds"><a><img src="/img/thumbnails/good-deeds.png" className="border-2 border-border-gray" /></a></Link>
+            <Link href="/design/vente"><a><img src="/img/thumbnails/vente.png" className="border-2 border-border-gray" /></a></Link>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   )
 }
