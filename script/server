@@ -2,4 +2,4 @@
 
 set -e
 
-npm run dev
+npx next dev --port 3001
