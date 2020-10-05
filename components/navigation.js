@@ -31,7 +31,7 @@ class Navigation extends React.Component {
 
           <div className="sm:hidden">
             <button onClick={this.handleClick} type="button">
-              <i className="fas fa-bars text-2xl"></i>
+              <i aria-hidden className="fas fa-bars text-2xl"></i>
             </button>
           </div>
         </div>
