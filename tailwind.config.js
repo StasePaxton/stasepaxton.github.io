@@ -36,6 +36,27 @@ module.exports = {
         'life-snapshot-gray': {
           '100': '#F4F4F4',
           '200': '#E2E8EB'
+        },
+        'vente-blue': {
+          '300': '#526C85',
+          '400': '#566F87',
+          '700': '#4D6880',
+          '800': '#4E687F',
+          '900': '#3E4A60'
+        },
+        'vente-green': {
+          '100': '#F7F4EE',
+          '150': '#C3D2D3',
+          '200': '#DCE5E3',
+          '300': '#81A2A3',
+          '400': '#ABBFBD'
+        },
+        'vente-orange': {
+          '300': '#E99E4C',
+          '400': '#DB650A'
+        },
+        'vente-tan': {
+          '100': '#FBFAF7'
         }
       },
       fontSize: {
