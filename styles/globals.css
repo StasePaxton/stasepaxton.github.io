@@ -22,3 +22,11 @@ body {
     max-width: 60rem;
   }
 }
+
+p {
+  line-height: 2;
+}
+
+ul {
+  line-height: 2;
+}
