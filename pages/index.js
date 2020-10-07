@@ -15,14 +15,14 @@ export default function Home() {
         </div>
 
         <div className="col-start-7 col-span-6">
-          <p className="text-6xl">
+          <p className="text-6xl leading-normal">
             <strong>Hi!</strong> <span className="font-light">My name is <strong>Stase.</strong></span>
           </p>
 
           <br />
 
-          <p className="text-4xl">I'm a Storyteller.</p>
-          <p className="text-4xl">
+          <p className="text-4xl leading-normal">I'm a Storyteller.</p>
+          <p className="text-4xl leading-normal">
             <strong>UI Designer</strong> by day,<br />
             nerd by night.
           </p>
