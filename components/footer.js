@@ -10,7 +10,7 @@ export default function Navigation() {
 
         <div className="flex mb-6">
           <span className="w-8/12 font-thin text-xl"></span>
-          <span className="w-2/12 font-thin text-xl">Resume</span>
+          <span className="w-2/12 font-thin text-xl"><a href="/pdfs/resume.pdf" download="stase-paxton.pdf">Resume</a></span>
           <span className="w-2/12 font-thin text-xl"><a href="https://www.instagram.com/socialmanickin/">Instagram</a></span>
         </div>
 
