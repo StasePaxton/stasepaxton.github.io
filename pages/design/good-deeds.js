@@ -195,7 +195,7 @@ export default function GoodDeeds() {
 
       <section className="bg-white flex justify-between">
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-1.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Coloring in Red&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
@@ -206,7 +206,7 @@ export default function GoodDeeds() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-2.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Breath of Fresh Air&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
@@ -217,7 +217,7 @@ export default function GoodDeeds() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-3.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Reflective&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
