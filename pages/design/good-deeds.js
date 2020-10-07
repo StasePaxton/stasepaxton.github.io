@@ -54,7 +54,7 @@ export default function GoodDeeds() {
               </ul>
             </div>
             <div className="row-span-2 col-span-6 text-xl text-good-deeds-gray-300">
-              <span clasName="font-light">&#8220;</span>When I volunteer, <strong className="text-good-deeds-orange-400">I want to see the impact</strong> it has on the community.<span className="font-light">&#8222;</span>
+              <span className="font-light">&#8220;</span>When I volunteer, <strong className="text-good-deeds-orange-400">I want to see the impact</strong> it has on the community.<span className="font-light">&#8222;</span>
             </div>
             <div className="row-span-6 col-span-5">
               <img src="/img/good-deeds/persona.png" style={{ maxHeight: 20.75 + 'rem' }} />
@@ -75,18 +75,18 @@ export default function GoodDeeds() {
           <p className="text-4xl font-extrabold text-good-deeds-blue-500">Principles to follow</p>
           <p className="text-base text-good-deeds-gray-300 pt-6">These principles were provided to us by our UX handoff. These were the main targets to reach for when we started making decisions. The final solution needed to:</p>
 
-          <div class="flex justify-around pt-6">
-            <div class="text-gray-700 text-center px-4 py-2 m-2">
+          <div className="flex justify-around pt-6">
+            <div className="text-gray-700 text-center px-4 py-2 m-2">
               <p className="text-4xl text-good-deeds-orange-400"><strong>Simplify</strong></p>
               <p className="text-good-deeds-gray-300">Cut through the noise, curate the experience.</p>
             </div>
 
-            <div class="text-gray-700 text-center px-4 py-2 m-2">
+            <div className="text-gray-700 text-center px-4 py-2 m-2">
               <p className="text-4xl text-good-deeds-orange-400"><strong>Catalyze</strong></p>
               <p className="text-good-deeds-gray-300">Spark an interest and habit.</p>
             </div>
 
-            <div class="text-gray-700 text-center px-4 py-2 m-2">
+            <div className="text-gray-700 text-center px-4 py-2 m-2">
               <p className="text-4xl text-good-deeds-orange-400"><strong>Retain</strong></p>
               <p className="text-good-deeds-gray-300">Keeps users engaged and coming back for more.</p>
             </div>
@@ -156,25 +156,25 @@ export default function GoodDeeds() {
         </div>
 
         <div className="container mx-auto">
-          <div class="flex justify-between">
-            <div class="text-good-deeds-gray-300">
-              <div class="grid grid-rows-2 grid-flow-col gap-5">
-                <div class="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">1</strong></div>
-                <div class="row-span-2 pt-8"><p>Create an interface that is both engaging and reputable?</p></div>
+          <div className="flex justify-between">
+            <div className="text-good-deeds-gray-300">
+              <div className="grid grid-rows-2 grid-flow-col gap-5">
+                <div className="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">1</strong></div>
+                <div className="row-span-2 pt-8"><p>Create an interface that is both engaging and reputable?</p></div>
               </div>
             </div>
 
-            <div class="text-good-deeds-gray-300">
-              <div class="grid grid-rows-2 grid-flow-col gap-5">
-                <div class="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">2</strong></div>
-                <div class="row-span-2 pt-8"><p>Make something easy for users to learn and come back to?</p></div>
+            <div className="text-good-deeds-gray-300">
+              <div className="grid grid-rows-2 grid-flow-col gap-5">
+                <div className="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">2</strong></div>
+                <div className="row-span-2 pt-8"><p>Make something easy for users to learn and come back to?</p></div>
               </div>
             </div>
 
-            <div class="text-good-deeds-gray-300">
-              <div class="grid grid-rows-2 grid-flow-col gap-5">
-                <div class="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">3</strong></div>
-                <div class="row-span-2 pt-8"><p>Build UI elements that are enticing, impactful, and instructive?</p></div>
+            <div className="text-good-deeds-gray-300">
+              <div className="grid grid-rows-2 grid-flow-col gap-5">
+                <div className="row-span-2"><strong className="text-8xl text-good-deeds-blue-500">3</strong></div>
+                <div className="row-span-2 pt-8"><p>Build UI elements that are enticing, impactful, and instructive?</p></div>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function GoodDeeds() {
 
       <section className="bg-white flex justify-between">
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-1.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Coloring in Red&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
@@ -206,7 +206,7 @@ export default function GoodDeeds() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-2.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Breath of Fresh Air&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
@@ -217,7 +217,7 @@ export default function GoodDeeds() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mx-auto" />
           <img src="/img/good-deeds/Artboard-3.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-good-deeds-orange-400 font-semibold text-4xl">&#8220;Reflective&#8221;</p>
           <ul className="text-base text-left text-good-deeds-gray-300 pt-6">
@@ -239,11 +239,11 @@ export default function GoodDeeds() {
 
           <img src="/img/good-deeds/StyleTile1.5.png" className="pt-6" />
 
-          <div class="grid grid-cols-12 grid-rows-4 grid-flow-col gap-5 pt-8">
-            <div class="row-span-2 col-span-2"><FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mr-5" /></div>
-            <div class="row-span-2 col-span-2"><FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" /></div>
+          <div className="grid grid-cols-12 grid-rows-4 grid-flow-col gap-5 pt-8">
+            <div className="row-span-2 col-span-2"><FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mr-5" /></div>
+            <div className="row-span-2 col-span-2"><FontAwesomeIcon icon={faTimesCircle} className="text-good-deeds-orange-400 text-8xl mr-5" /></div>
 
-            <div class="row-span-2 col-span-10">
+            <div className="row-span-2 col-span-10">
               <ul className="text-base text-left text-good-deeds-gray-300 pt-4">
                 <li><span className="text-good-deeds-orange-400">*</span> The typeface (Righteous) is very unique and fitting.</li>
                 <li><span className="text-good-deeds-orange-400">*</span> Teal color is very "fun".</li>
@@ -251,7 +251,7 @@ export default function GoodDeeds() {
               </ul>
             </div>
 
-            <div class="row-span-2 col-span-10">
+            <div className="row-span-2 col-span-10">
               <ul className="text-base text-left text-good-deeds-gray-300 pt-4">
                 <li><span className="text-good-deeds-orange-400">*</span> The monochromatic is not as "punchy" or "impactful" as the red iteration.</li>
                 <li><span className="text-good-deeds-orange-400">*</span> The green is not as favorable shade.</li>
@@ -288,7 +288,7 @@ export default function GoodDeeds() {
         </div>
 
         <div className="container mx-auto sm:px-2">
-          <div class="grid grid-cols-12 gap-5 py-8">
+          <div className="grid grid-cols-12 gap-5 py-8">
             <div className="col-span-1 text-8xl font-extrabold text-good-deeds-blue-500">1</div>
 
             <div className="col-start-2 col-span-6 pt-8">
@@ -307,7 +307,7 @@ export default function GoodDeeds() {
             </div>
           </div>
 
-          <div class="grid grid-cols-12 gap-5 py-8">
+          <div className="grid grid-cols-12 gap-5 py-8">
             <div className="col-span-1 text-8xl font-extrabold text-good-deeds-blue-500">2</div>
 
             <div className="col-start-2 col-span-6 pt-8">
@@ -325,7 +325,7 @@ export default function GoodDeeds() {
             </div>
           </div>
 
-          <div class="grid grid-cols-12 gap-5 py-8">
+          <div className="grid grid-cols-12 gap-5 py-8">
             <div className="col-span-1 text-8xl font-extrabold text-good-deeds-blue-500">3</div>
 
             <div className="col-start-2 col-span-6 pt-8">
@@ -375,8 +375,8 @@ export default function GoodDeeds() {
 
           <p className="text-3xl text-center font-light text-good-deeds-gray-300"><span className="text-4xl">&#8220;</span>It looks so <span className="font-semibold text-good-deeds-orange-400">simple</span> that I can navigate it. <span className="font-semibold text-good-deeds-orange-400">I don't feel overwhelmed</span> popping back into it.<span className="text-4xl">&#8222;</span></p>
 
-          <div class="flex justify-around pt-8">
-            <div class="text-gray-700 text-center max-w-xs">
+          <div className="flex justify-around pt-8">
+            <div className="text-gray-700 text-center max-w-xs">
               <FontAwesomeIcon icon={faCheckCircle} className="text-good-deeds-green-200 text-8xl mb-6" />
               <ul className="text-base text-good-deeds-gray-300 text-left">
                 <li><span className="text-good-deeds-orange-400">*</span> Navigation is easy and simple</li>
@@ -385,7 +385,7 @@ export default function GoodDeeds() {
               </ul>
             </div>
 
-            <div class="text-gray-700 text-center max-w-xs">
+            <div className="text-gray-700 text-center max-w-xs">
               <FontAwesomeIcon icon={faExclamationCircle} className="text-good-deeds-blue-500 text-8xl mb-6" />
               <ul className="text-base text-good-deeds-gray-300 text-left">
                 <li><span className="text-good-deeds-orange-400">*</span> Colors might be too "dull"</li>

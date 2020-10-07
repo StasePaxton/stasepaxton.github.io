@@ -163,7 +163,7 @@ export default function Vente() {
 
       <section className="bg-white flex justify-between">
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-vente-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-vente-orange-400 text-8xl mx-auto" />
           <img src="/img/vente/mood-boards/los-angeles.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-vente-orange-400 font-semibold text-4xl">&#8220;L.A. Sunset&#8221;</p>
           <ul className="text-base text-left text-vente-blue-400 pt-6">
@@ -174,7 +174,7 @@ export default function Vente() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faCheckCircle} className="text-vente-green-300 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faCheckCircle} className="text-vente-green-300 text-8xl mx-auto" />
           <img src="/img/vente/mood-boards/urban.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-vente-orange-400 font-semibold text-4xl">&#8220;Breath of Fresh Air&#8221;</p>
           <ul className="text-base text-left text-vente-blue-400 pt-6">
@@ -186,7 +186,7 @@ export default function Vente() {
         </div>
 
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
-          <FontAwesomeIcon icon={faTimesCircle} className="text-vente-orange-400 text-8xl mr-5" />
+          <FontAwesomeIcon icon={faTimesCircle} className="text-vente-orange-400 text-8xl mx-auto" />
           <img src="/img/vente/mood-boards/transparent.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-vente-orange-400 font-semibold text-4xl">&#8220;Reflective&#8221;</p>
           <ul className="text-base text-left text-vente-blue-400 pt-6">
