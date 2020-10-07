@@ -186,7 +186,7 @@ export default function LifeSnapshot() {
       </section>
 
       <section className="bg-life-snapshot-gray-100 py-12">
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-2 lg:px-20">
           <p className="text-4xl font-extrabold text-life-snapshot-blue-800">Our plan of attack...</p>
           <p className="text-life-snapshot-gray-250 pt-6">
             We dedicated one of our user tests to usability. Each designer was given a screen to redesign from the desired screens. The intent was to design questions surrounding the usability of the existing site. Then to replicate those same questions but focus them on our new iterations. This was to see what users thought about the “void” brand and compare those findings to that of our current attempts. This was conducted against our first rounds of high fidelity.
@@ -221,7 +221,7 @@ export default function LifeSnapshot() {
         <div className="container mx-auto px-2">
           <p className="text-4xl font-extrabold text-life-snapshot-blue-800">The final solution...</p>
 
-          VIDEO
+          <iframe className="mx-auto" width="901" height="571" src="https://www.youtube.com/embed/k-u92WWTn1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
