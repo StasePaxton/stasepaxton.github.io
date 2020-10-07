@@ -64,7 +64,7 @@ export default function Home() {
         <div className="row-span-1 col-span-9">
           <div className="flex justify-start">
             <strong><Link href="mailto:stase@stasepaxton.com"><a className="mr-16 text-gold text-4xl underline">Email Me</a></Link></strong>
-            <strong><a className="text-gold text-4xl underline" href="#">Download Resume</a></strong>
+            <strong><a className="text-gold text-4xl underline" href="/pdfs/resume.pdf" download="stase-paxton.pdf">Download Resume</a></strong>
           </div>
         </div>
 

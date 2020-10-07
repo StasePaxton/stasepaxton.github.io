@@ -25,9 +25,9 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid grid-cols-6 gap-5">
-          <div className="col-span-1 text-gold underline"><strong><Link href="mailto:stase@stasepaxton.com"><a>Email Me</a></Link></strong></div>
-          <div className="col-start-2 col-span-5 text-gold underline"><strong><Link href="#"><a>Download Resume</a></Link></strong></div>
+        <div className="grid grid-cols-6 gap-5 pt-6">
+          <div className="col-span-1 text-3xl text-gold underline"><strong><Link href="mailto:stase@stasepaxton.com"><a>Email Me</a></Link></strong></div>
+          <div className="col-start-2 col-span-5 text-3xl text-gold underline"><strong><a href="/pdfs/resume.pdf" download="stase-paxton.pdf">Download Resume</a></strong></div>
         </div>
       </div>
     </>
