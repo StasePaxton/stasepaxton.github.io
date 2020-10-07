@@ -226,7 +226,7 @@ export default function LifeSnapshot() {
       </section>
 
       <section className="bg-life-snapshot-gray-150 pt-12">
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-2 lg:px-20">
           <p className="text-4xl font-extrabold text-life-snapshot-blue-800">Designing for different devices...</p>
 
           <p className="text-life-snapshot-gray-300 pt-6">
