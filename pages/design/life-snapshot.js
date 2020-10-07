@@ -106,7 +106,7 @@ export default function LifeSnapshot() {
       <section className="bg-white flex justify-between">
         <div className="text-gray-700 text-center px-4 py-2 m-2" style={{maxWidth: 28 + 'rem' }}>
           <FontAwesomeIcon icon={faTimesCircle} className="text-life-snapshot-orange-400 text-8xl mx-auto" />
-          <img src="/img/life-snapshot/mood-boards/PeaceOfMind.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
+          <img src="/img/life-snapshot/mood-boards/peace.png" className="py-6 mx-auto" style={{ maxHeight: 18.75 + 'rem' }} />
           <p className="text-life-snapshot-blue-400 font-semibold text-4xl">&#8220;Peace of Mind&#8221;</p>
           <ul className="text-base text-left text-life-snapshot-gray-300 pt-6">
             <li><span className="text-life-snapshot-blue-400">*</span> Words users chose: Calm and Peaceful</li>
