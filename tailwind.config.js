@@ -5,6 +5,21 @@ module.exports = {
   },
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    typography: {
+      default: {
+        css: {
+          blockquote: {
+            color: '#494B67'
+          },
+          h2: {
+            color: '#494B67'
+          },
+          strong: {
+            color: '#494B67'
+          }
+        }
+      }
+    },
     extend: {
       colors: {
         'gold': '#C39C70',
