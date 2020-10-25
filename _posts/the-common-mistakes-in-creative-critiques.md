@@ -4,8 +4,6 @@ excerpt: 'The worst thing you can do to an artist or an artwork is be indifferen
 date: '2020-10-26'
 ---
 
-## The Common Mistakes in Creative Critiques
-
 When starting out in the UI program at Flatiron School, I knew that my art degree would be an invaluable resource to lean on. Color theory, composition layout, and various technologies were all concepts I was previously exposed to. Little did I know what the most important lesson I would come to rely on, was in fact, how to engage in a critique session.
 
 It was the second year of my undergrad education. I was sitting in my weekly Friday critique for my 3D modeling class. The conversation started by one of the "star students" showing their work on the projector and all of my colleagues proceeding to praise their abilities. My professor stood up in front of the projector, turned to face our circle, and said "Starting now, if someone begins a comment with the phrase 'I like', they will lose points on their final grade."
