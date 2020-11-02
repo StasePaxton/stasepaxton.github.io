@@ -3,6 +3,7 @@ import VentePhoneTop from '../../public/svg/vente/phone-top.svg'
 import VenteLogo from '../../public/svg/vente/logo.svg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInvision } from '@fortawesome/free-brands-svg-icons'
 import { faCheckCircle, faExclamationCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 
 export default function Vente() {
@@ -230,10 +231,12 @@ export default function Vente() {
 
       <section className="bg-vente-green-200 pt-6 pb-12">
         <div className="container mx-auto px-2 lg:px-20">
-          <p className="text-4xl font-extrabold text-vente-blue-800">Taking it to High Fidelity</p>
+          <p className="text-4xl font-extrabold text-vente-blue-800">Check out my prototype</p>
 
-          <div className="bg-gray-800 h-64">
-            <span className="text-white">Video</span>
+          <div className="flex justify-center">
+            <a href="https://invis.io/5SXA8TKZPW3#/417620783_1-Login">
+              <FontAwesomeIcon icon={faInvision} style={{ color: '#ff3366', fontSize: 17 + 'rem' }} />
+            </a>
           </div>
         </div>
       </section>
