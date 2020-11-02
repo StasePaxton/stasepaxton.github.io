@@ -33,7 +33,6 @@ class MyDocument extends Document {
 
         <body className="flex flex-col min-h-screen">
           <Main />
-          <script src="https://kit.fontawesome.com/0fc4a55089.js" crossOrigin="anonymous"></script>
           <NextScript />
         </body>
       </Html>
