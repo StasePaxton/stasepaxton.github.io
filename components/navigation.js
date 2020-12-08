@@ -12,6 +12,7 @@ class Navigation extends React.Component {
     this.handleClick = this.handleClick.bind(this);
 
     this.links = [
+      { href: '/', label: 'Home' },
       { href: '/design', label: 'Design' },
       { href: '/art', label: 'Art' },
       { href: '/about', label: 'About & Contact' },
@@ -40,8 +41,6 @@ class Navigation extends React.Component {
         </div>
 
         <nav role="navigation" className={`${this.state.isToggleOn ? 'block' : 'hidden'} px-2 pt-2 pb-4 sm:flex sm:p-0`}>
-          <Link href="/"><a className="block px-2 py-1">Home</a></Link>
-
           {this.links.map(({ href, label }) => (
             <Link href={href} key={`${href}${label}`}><a className="mt-1 block px-2 py-1 sm:mt-0 sm:ml-2">{label}</a></Link>
           ))}
