@@ -1,7 +1,19 @@
 {
   "name": "stasepaxton.github.io",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.0",
+  "author": {
+    "name": "Stase Paxton",
+    "email": "stase@stasepaxton.com",
+    "url": "https://stasepaxton.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stasepaxton/stasepaxton.github.io.git"
+  },
+  "scripts": {
+    "dev": "next --port 3001"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
