@@ -1,5 +1,8 @@
 import Link from 'next/link'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -31,7 +34,7 @@ class Navigation extends React.Component {
 
           <div className="sm:hidden">
             <button onClick={this.handleClick} type="button">
-              <i aria-hidden className="fas fa-bars text-2xl"></i>
+              <FontAwesomeIcon icon={faBars} className="text-2xl" />
             </button>
           </div>
         </div>
