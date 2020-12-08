@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/stasepaxton/stasepaxton.github.io.git"
   },
+  "scripts": {
+    "dev": "next --port 3001"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
