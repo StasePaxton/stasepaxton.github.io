@@ -27,8 +27,8 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <header className="sm:flex sm:justify-between sm:items-center sm:mx-12 sm:mt-5">
-        <div className="flex items-center justify-between mx-4 my-3 sm:p-0">
+      <header className="sm:flex sm:justify-between sm:items-center md:mx-12 sm:mt-5">
+        <div className="flex items-center justify-between mx-2 md:mx-4 my-3 sm:p-0">
           <div className="text-4xl">
             <Link href="/"><a><strong>Stase</strong><span className="font-thin">Paxton</span></a></Link>
           </div>
